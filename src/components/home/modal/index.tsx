@@ -164,7 +164,7 @@ export default function ModalCreate() {
                                     </div>
                                     
                                     <div className="d-flex justify-content-end pe-3 pb-3">
-                                        <button type="submit" className="btn btn-sm btn-primary">Salvar</button>
+                                        <a href="/" type="submit" className="btn btn-sm btn-primary" >Salvar</a>
                                     </div>
 
                                 </div>

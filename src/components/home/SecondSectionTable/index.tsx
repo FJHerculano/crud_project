@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../../../services/api";
+import './styles.css'
 
 interface IProject {
   project:string;
@@ -7,8 +8,6 @@ interface IProject {
   status: boolean;
   situacao: string;
 }
-
-
 
 export default function SecondSectionTable() {
 
@@ -28,7 +27,7 @@ export default function SecondSectionTable() {
     return (
       <div>
           <div className="table-responsive">
-            <table className="table">
+            <table className="table bg-table-white">
             <thead>
                 <tr>
                   <th scope="col">Empresas</th>
@@ -52,7 +51,8 @@ export default function SecondSectionTable() {
                       <td>Estatico</td>
                       <td>Estatico</td>
                       <td>
-                        <button className="btn btn-sm btn-success px-5">{project.situacao}</button>
+                        {/* Tem que mudar o background conforme a situação */}
+                        <span className="badge badge  button-style-green">{project.situacao}</span>
                       </td>
                     </tr>
                   ))

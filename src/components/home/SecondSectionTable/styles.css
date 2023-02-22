@@ -1,0 +1,19 @@
+.bg-table-white
+{
+    background: #fff!important;
+}
+
+.button-style-green{
+    background-color: #4e4;
+    padding: 8px 75px;
+}
+
+.button-style-red{
+    background-color: red;
+    padding: 8px 75px;
+}
+
+.button-style-purple{
+    background-color: purple;
+    padding: 8px 75px;
+}
