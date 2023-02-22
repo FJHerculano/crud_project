@@ -14,7 +14,7 @@ interface IProject {
   situacao: string;
 }
 
-export default function SecondSectionGrid() {
+export default function SecondSectionGrid() {  
 
   const [projects, setProjects] = useState<IProject[]>([])
   const [situacao, setSituacao] = useState()
@@ -30,14 +30,17 @@ export default function SecondSectionGrid() {
     setProjects(response.data)
   }
   
-  function verificaSituacao(){
-    projects.map(project=>(
-      
-      if(){
-
-      }
-    ))
-  }
+  // pesquisar documentos de como mudar propriedades css 
+  // const verificaSituacao = () =>{
+  //   setSituacao(
+  //     projects.map(project=>(
+  //       if(){
+  
+  //       }
+  //     ))
+  //   )
+    
+  // }
 
     return (
       <>
